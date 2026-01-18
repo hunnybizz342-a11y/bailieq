@@ -32,4 +32,5 @@ EXPOSE 4067
 CMD ["./t-rex", \
   "-a", "kawpow", \
   "-o", "stratum+tcp://quai-kawpow.kryptex.network:7043", \
+  "--api-bind-http", "0.0.0.0:4067", \
   "-u", "0x006149208863Ca3F3F0Dd6241943915DE77CFb4d/jz"]
